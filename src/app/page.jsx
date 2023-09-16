@@ -23,9 +23,6 @@ export default function Home() {
             <span className={styles.descr}><CheckBoxIcon fontSize="small"/>Communication with the customer (agreement of terms, plans, key requirements for the project).</span>
             <span className={styles.descr}><CheckBoxIcon fontSize="small"/>Control over project implementation (adherence to quality, deadlines, budget).</span>
           </p>
-
-          
-
         </li>        
       </ul>
       

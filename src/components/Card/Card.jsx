@@ -6,9 +6,8 @@ import styles from "@/components/Card/Card.module.css"
 const Card = () => {
   return (
     <div className={styles.card}>
-      <div className={styles.front}>
-        
-      </div>      
+      <div className={styles.front}>        
+      </div>
       <div className={styles.back}>
         <div className={styles.backContent}>
           <h2 className={styles.title}>Title</h2>
