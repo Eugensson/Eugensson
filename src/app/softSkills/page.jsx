@@ -1,9 +1,9 @@
+export const metadata = {
+  title: "Soft Skills | Eugensson",
+};
+
 const SoftSkills = () => {
-    return (
-      <section>
-        <h1>Soft Skills</h1>
-      </section>
-    )
+    return (<p className="info">Select a skill from the list</p>)
   }
   
   export default SoftSkills;

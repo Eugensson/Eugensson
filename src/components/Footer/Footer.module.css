@@ -1,0 +1,27 @@
+.wrapper {
+    padding: 20px;
+    background-color: var(--secondary-background-color);
+}
+  
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  
+    margin-bottom: 20px;
+}
+
+.item {
+    color: var(--primary-text-color);
+}
+
+.item:hover, .item:focus {
+  color: var(--accent-text-color);
+}
+  
+.license {
+    font-size: 0.75rem;
+    text-align: center;
+    color: var(--accent-text-color);
+}

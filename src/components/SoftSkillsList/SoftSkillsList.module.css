@@ -1,0 +1,22 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+    gap: 20px;
+
+    padding: 50px;
+  }
+
+.item {
+    color: var(--secondary-text-color);
+}
+
+.item:hover, .item:focus {
+    color: var(--primary-text-color);
+  }
+  
+.active {
+    cursor: default;    
+    color: var(--primary-text-color);   
+}
