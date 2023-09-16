@@ -1,10 +1,10 @@
 :root {
   --primary-text-color: #ffffff;
   --secondary-text-color: #212121;
-  --accent-text-color: #5db6ff;
+  --accent-text-color: #8bcbff;
   --red-text-color: #ff0000;
-  --primary-background-color: #ffffff;
-  --secondary-background-color:  #2c2c32;
+  --primary-background-color: #8bcbff;
+  --secondary-background-color:  #2c2c32;  
 }
 
 * {
@@ -18,7 +18,7 @@ body {
   overflow-x: hidden;
   font-size: 30px;
   color: var(--secondary-text-color);
-  background-color: var(--accent-text-color);  
+  background-color: var(--primary-background-color);  
 }
 
 .visuallyHidden {

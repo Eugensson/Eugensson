@@ -1,5 +1,8 @@
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
 
+import SwiperComponent from '@/components/SwiperComponent/SwiperComponent';
+import { items } from '@/data/items';
+
 import styles from "@/app/page.module.css"
 
 export default function Home() {
@@ -41,7 +44,9 @@ export default function Home() {
           <p className={styles.text}><b>Cherkasy State Technological University</b>Environmental engineer, Specialist</p>
         </li>
       </ul>
-      
+      <div className={styles.swiperWrapper}>
+        <SwiperComponent data={items}/>
+      </div>      
       <h2>Languages</h2>
       <ul className={styles.list}>
         <li className={styles.descr}><CheckBoxIcon fontSize="small"/><p className="text">English - Pre-Intermediate</p></li>

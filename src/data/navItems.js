@@ -4,4 +4,4 @@ export const navItems = [
     { label: 'Soft Skills', href: '/softSkills' },
     { label: 'Portfolio', href: '/portfolio' },    
     { label: 'Contacts', href: '/contacts' },
-  ];
+];
