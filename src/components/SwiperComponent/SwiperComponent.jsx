@@ -17,7 +17,7 @@ const SwiperComponent = ({ data }) => {
     >
       {data.map(({ id, imageUrl }) => (
         <SwiperSlide key={id}>
-          <Image style={{objectFit: 'contain'}} width={550} height={600} src={imageUrl} priority alt="Sertificate" />
+          <Image style={{objectFit: 'contain'}} width={550} height={600} src={imageUrl} priority alt="Certificate" />
         </SwiperSlide>
       ))}
     </Swiper>
