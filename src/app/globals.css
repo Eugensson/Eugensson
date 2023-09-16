@@ -4,7 +4,8 @@
   --accent-text-color: #8bcbff;
   --red-text-color: #ff0000;
   --primary-background-color: #8bcbff;
-  --secondary-background-color:  #2c2c32;  
+  --secondary-background-color:  #2c2c32;
+  --white-background-color: #ffffff;
 }
 
 * {
