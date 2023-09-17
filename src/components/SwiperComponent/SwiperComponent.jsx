@@ -1,6 +1,6 @@
 'use client';
 
-import { Navigation, Pagination } from 'swiper';
+import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
 import 'swiper/css';

@@ -7,6 +7,12 @@
 .front,
 .back {
     position: absolute;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 300px;
     height: 300px;
     backface-visibility: hidden;
@@ -36,7 +42,12 @@
 }
   
 .backContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+
     width: 100%;
+    height: 100%;
     padding: 10px;
     text-align: center;
 }
@@ -56,4 +67,14 @@
   
 .card:hover > .back {
     transform: perspective(600px) rotateY(0deg);
+}
+
+.link {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.link:hover, .link:focus {
+    text-decoration: underline;
+    color: var(--cyin-text-color);
 }

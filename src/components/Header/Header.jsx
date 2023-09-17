@@ -1,6 +1,6 @@
 import Logo from "@/components/Logo/Logo";
 import { Navigation } from '@/components/Navigation/Navigation';
-import { navItems } from '@/data/navItems';
+import { navItems } from '@/data';
 
 import styles from "@/components/Header/Header.module.css"
 

@@ -1,7 +1,7 @@
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
 
 import SwiperComponent from '@/components/SwiperComponent/SwiperComponent';
-import { items } from '@/data/items';
+import { items } from '@/data';
 
 import styles from "@/app/page.module.css"
 

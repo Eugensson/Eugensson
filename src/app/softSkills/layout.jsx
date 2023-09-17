@@ -1,5 +1,5 @@
 import { SoftSkillsList } from "@/components/SoftSkillsList/SoftSkillsList";
-import { softSkillsItems } from '@/data/softSkillsItems';
+import { softSkillsItems } from '@/data';
 
 const SoftSkillsLayout = ({children}) => {
   return (
