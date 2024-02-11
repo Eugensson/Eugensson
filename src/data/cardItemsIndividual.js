@@ -9,7 +9,7 @@ export const cardItemsIndividual = [
     {
         id: 2,
         imageUrl: "https://res.cloudinary.com/dhkadb6du/image/upload/v1694893826/Eugensson/FinanceLedger_vse87l.jpg",
-        url: "https://eugensson.github.io/finance-ledger/",
+        url: "https://eugensson.github.io/finance-ledger-lending/",
         title: "FinanceLedger",
         description: "test"
     },
